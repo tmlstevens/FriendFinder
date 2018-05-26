@@ -3,7 +3,7 @@ var path = require("path");
 var persons = require("./app/data/friends");
 
 var app = express();
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 
 var htmlRoutes = require('./app/routing/htmlRoutes');
 app.use('/', htmlRoutes);
