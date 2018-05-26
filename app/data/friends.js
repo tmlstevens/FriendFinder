@@ -1,0 +1,101 @@
+
+const friends = [
+    {
+        "name":"Bob",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Goofy.svg/220px-Goofy.svg.png",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+        ]
+    },{
+        "name":"Susan",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/6/67/Minnie_Mouse.png",
+        "scores":[
+            3,
+            1,
+            5,
+            2,
+            1,
+            5,
+            4,
+            2,
+            3,
+            3
+        ]
+    },{
+        "name":"George",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Goofy.svg/220px-Goofy.svg.png",
+        "scores":[
+            3,
+            3,
+            3,
+            3,
+            1,
+            5,
+            4,
+            2,
+            5,
+            5
+        ]
+    },{
+        "name":"Betty",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/6/67/Minnie_Mouse.png",
+        "scores":[
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            2,
+            2,
+            3
+        ]
+    },{
+        "name":"Wanda",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/6/67/Minnie_Mouse.png",
+        "scores":[
+            5,
+            2,
+            5,
+            3,
+            4,
+            4,
+            5,
+            5,
+            2,
+            5
+        ]
+    },{
+        "name":"Frank",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Goofy.svg/220px-Goofy.svg.png",
+        "scores":[
+            5,
+            2,
+            5,
+            3,
+            1,
+            4,
+            1,
+            5,
+            2,
+            1
+        ]
+    },
+        
+
+];
+  
+module.exports = {
+    friends: friends
+};
+  
